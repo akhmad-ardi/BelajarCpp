@@ -18,12 +18,10 @@ void main()
 
 	cout << "Lama kendaraan yang disewa: " << hariSewa << " hari" << endl;
 
-   if(jenisKendaraan == 1){
+   if(jenisKendaraan == 1)
 		biayaSewa = hariSewa * 50000;
-   }
-   else{
+   else
       biayaSewa = hariSewa * 25000;
-   }
 
    cout << "Biaya yang harus disewa: " << biayaSewa;
 
