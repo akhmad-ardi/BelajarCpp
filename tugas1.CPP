@@ -3,7 +3,7 @@
 
 void main()
 {
-	int kodePelanggan, jenisKendaraan, hariSewa, biayaSewa;
+	int kodePelanggan, jenisKendaraan, hariSewa;
    char namaPelanggan[50];
 
    cout << "Masukkan kode pelanggan: "; cin >> kodePelanggan;
@@ -19,11 +19,9 @@ void main()
 	cout << "Lama kendaraan yang disewa: " << hariSewa << " hari" << endl;
 
    if(jenisKendaraan == 1)
-		biayaSewa = hariSewa * 50000;
+   	cout << "Biaya yang harus disewa: " << hariSewa * 50000;
    else
-      biayaSewa = hariSewa * 25000;
-
-   cout << "Biaya yang harus disewa: " << biayaSewa;
+      cout << "Biaya yang harus disewa: " << hariSewa * 25000;
 
    getch();
 }
