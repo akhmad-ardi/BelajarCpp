@@ -3,7 +3,7 @@
 
 void main()
 {
-	int kodePelanggan, jenisKendaraan, hariSewa;
+	int kodePelanggan, jenisKendaraan, hariSewa, biayaSewa;
    char namaPelanggan[50];
 
    clrscr();
@@ -20,9 +20,11 @@ void main()
 	cout << "Lama kendaraan yang disewa: " << hariSewa << " hari" << endl;
 
    if(jenisKendaraan == 1)
-   	cout << "Biaya yang harus disewa: " << hariSewa * 50000;
+		biayaSewa = hariSewa * 50000;
    else
-      cout << "Biaya yang harus disewa: " << hariSewa * 25000;
+      biayaSewa = hariSewa * 25000;
+
+   cout << "Biaya yang harus dibayar: " << biayaSewa;
 
    getch();
 }
