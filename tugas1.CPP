@@ -6,11 +6,12 @@ void main()
 	int kodePelanggan, jenisKendaraan, hariSewa;
    char namaPelanggan[50];
 
+   clrscr();
    cout << "Masukkan kode pelanggan: "; cin >> kodePelanggan;
 
    cout << "Masukkan nama pelanggan: "; cin >> namaPelanggan;
 
-   cout << "1 = Mobil : 50000 \n2 = Motor : 25000" << endl;
+   cout << "1. Mobil : 50000 \n2. Motor : 25000" << endl;
    cout << "Pilih jenis kendaraan: "; cin >> jenisKendaraan;
 
    cout << "Masukkan jumlah hari sewa: "; cin >> hariSewa;
