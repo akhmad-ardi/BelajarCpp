@@ -8,7 +8,7 @@ void main()
 	int elements1[2][2], elements2[2][2], result[2][2];
 	clrscr();
    cout << "* Program Penjumlahan matriks ordo 2x2 *" << endl;
-   cout << "==================================" << endl;
+   cout << "========================================" << endl;
 
    for(int i = 0; i < 2; i++){
    	cout << "Input Matrix Name: ";
