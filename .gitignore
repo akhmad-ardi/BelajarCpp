@@ -1,9 +1,9 @@
 bcwdef.csm
-tugas1.bak
-tugas1.exe
-tugas1.ilc
-tugas1.ild
-tugas1.ilf
-tugas1.ils
-tugas1.obj
-tugas1.tds
+*.bak
+*.exe
+*.ilc
+*.ild
+*.ilf
+*.ils
+*.obj
+*.tds
